@@ -1,0 +1,262 @@
+{
+  "cross_validation": {
+    "split_strategy": "group_kfold",
+    "num_groups": 6,
+    "num_folds": 5,
+    "best_fold": 2,
+    "folds": [
+      {
+        "fold": 1,
+        "train": {
+          "accuracy": 0.8071244434028592,
+          "precision": 0.731614859742229,
+          "recall": 0.6729428172942817,
+          "f1": 0.701053396294951,
+          "confusion_matrix": [
+            [
+              4958,
+              708
+            ],
+            [
+              938,
+              1930
+            ]
+          ]
+        },
+        "val": {
+          "accuracy": 0.6610667786644268,
+          "precision": 0.6149289099526066,
+          "recall": 0.5184815184815185,
+          "f1": 0.5626016260162602,
+          "confusion_matrix": [
+            [
+              1055,
+              325
+            ],
+            [
+              482,
+              519
+            ]
+          ]
+        },
+        "train_size": 8534,
+        "val_size": 2381,
+        "held_out_groups": [
+          "03"
+        ]
+      },
+      {
+        "fold": 2,
+        "train": {
+          "accuracy": 0.9058102587380844,
+          "precision": 0.8535866360956437,
+          "recall": 0.8718634994981599,
+          "f1": 0.8626282687851704,
+          "confusion_matrix": [
+            [
+              5376,
+              447
+            ],
+            [
+              383,
+              2606
+            ]
+          ]
+        },
+        "val": {
+          "accuracy": 0.760342368045649,
+          "precision": 0.7561307901907357,
+          "recall": 0.6306818181818182,
+          "f1": 0.6877323420074349,
+          "confusion_matrix": [
+            [
+              1044,
+              179
+            ],
+            [
+              325,
+              555
+            ]
+          ]
+        },
+        "train_size": 8812,
+        "val_size": 2103,
+        "held_out_groups": [
+          "05"
+        ]
+      },
+      {
+        "fold": 3,
+        "train": {
+          "accuracy": 0.8315079101670538,
+          "precision": 0.7528021811572251,
+          "recall": 0.7785087719298246,
+          "f1": 0.7654397042969351,
+          "confusion_matrix": [
+            [
+              5031,
+              816
+            ],
+            [
+              707,
+              2485
+            ]
+          ]
+        },
+        "val": {
+          "accuracy": 0.7164179104477612,
+          "precision": 0.7408637873754153,
+          "recall": 0.3293943870014771,
+          "f1": 0.45603271983640076,
+          "confusion_matrix": [
+            [
+              1121,
+              78
+            ],
+            [
+              454,
+              223
+            ]
+          ]
+        },
+        "train_size": 9039,
+        "val_size": 1876,
+        "held_out_groups": [
+          "01"
+        ]
+      },
+      {
+        "fold": 4,
+        "train": {
+          "accuracy": 0.8088993981083406,
+          "precision": 0.7544334235046588,
+          "recall": 0.7231345433592624,
+          "f1": 0.7384524860253014,
+          "confusion_matrix": [
+            [
+              5016,
+              817
+            ],
+            [
+              961,
+              2510
+            ]
+          ]
+        },
+        "val": {
+          "accuracy": 0.8237119801365611,
+          "precision": 0.685064935064935,
+          "recall": 0.5301507537688442,
+          "f1": 0.5977337110481586,
+          "confusion_matrix": [
+            [
+              1116,
+              97
+            ],
+            [
+              187,
+              211
+            ]
+          ]
+        },
+        "train_size": 9304,
+        "val_size": 1611,
+        "held_out_groups": [
+          "02"
+        ]
+      },
+      {
+        "fold": 5,
+        "train": {
+          "accuracy": 0.8272487768159579,
+          "precision": 0.7838906868033082,
+          "recall": 0.7374830852503383,
+          "f1": 0.7599790831445007,
+          "confusion_matrix": [
+            [
+              4414,
+              601
+            ],
+            [
+              776,
+              2180
+            ]
+          ]
+        },
+        "val": {
+          "accuracy": 0.6572690217391305,
+          "precision": 0.4619651347068146,
+          "recall": 0.6385542168674698,
+          "f1": 0.5360919540229885,
+          "confusion_matrix": [
+            [
+              1352,
+              679
+            ],
+            [
+              330,
+              583
+            ]
+          ]
+        },
+        "train_size": 7971,
+        "val_size": 2944,
+        "held_out_groups": [
+          "04",
+          "06"
+        ]
+      }
+    ],
+    "summary": {
+      "train": {
+        "accuracy_mean": 0.8361181574464591,
+        "accuracy_std": 0.036161873815212055,
+        "precision_mean": 0.7752655574606129,
+        "precision_std": 0.04255008509072819,
+        "recall_mean": 0.7567865434663734,
+        "recall_std": 0.0667074389370301,
+        "f1_mean": 0.7655105877093717,
+        "f1_std": 0.05357110589959974
+      },
+      "val": {
+        "accuracy_mean": 0.7237616118067056,
+        "accuracy_std": 0.06282366503566776,
+        "precision_mean": 0.6517907114581014,
+        "precision_std": 0.10707061299827382,
+        "recall_mean": 0.5294525388602256,
+        "recall_std": 0.11161958435087645,
+        "f1_mean": 0.5680384705862486,
+        "f1_std": 0.07589974645850149
+      }
+    }
+  },
+  "final_model": {
+    "trained_on_full_dataset": true,
+    "train_metrics": {
+      "accuracy": 0.9240494732020156,
+      "precision": 0.9305949008498584,
+      "recall": 0.8490566037735849,
+      "f1": 0.8879578321394783,
+      "confusion_matrix": [
+        [
+          6801,
+          245
+        ],
+        [
+          584,
+          3285
+        ]
+      ]
+    }
+  },
+  "epochs": 8,
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "seed": 42,
+  "feature_dim": 15,
+  "num_samples": 10915,
+  "class_distribution": {
+    "normal": 7046,
+    "fatigue": 3869
+  }
+}

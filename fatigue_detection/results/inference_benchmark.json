@@ -1,0 +1,9 @@
+{
+  "dataset": "data/dataset_cv6_review.npz",
+  "num_samples": 256,
+  "torch_forward_ms_per_sample": 0.06768046864635835,
+  "onnx_forward_ms_per_sample": 0.021533593553613173,
+  "onnx_end_to_end_ms_per_sample": 0.16643046865283395,
+  "forward_speedup_vs_torch": 3.1430178375871725,
+  "prediction_agreement": 1.0
+}
